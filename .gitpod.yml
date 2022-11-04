@@ -1,0 +1,13 @@
+tasks:
+  - name: Install
+    init: |
+      npm install
+      gp sync-done bundle
+
+  - name: Start Server
+    init: gp sync-await bundle
+    command: npm start
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
