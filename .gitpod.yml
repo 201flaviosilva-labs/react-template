@@ -11,3 +11,4 @@ tasks:
 vscode:
   extensions:
     - dbaeumer.vscode-eslint
+    - dsznajder.es7-react-js-snippets
